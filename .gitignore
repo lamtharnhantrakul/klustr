@@ -1,0 +1,8 @@
+*.pyc
+*.DS_Store
+drumData/
+drumFeatures/
+drumEmbeddings/
+*.npy
+wavenet-ckpt/
+*.data
