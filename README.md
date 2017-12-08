@@ -19,8 +19,7 @@ The 2D embedding of feature is intended to substitute the normal process of "scr
 
 We recommend using our docker container to interact with our notebook. Our docker container contains all the of required features and pre-computed embeddings in `.npy` format. Before running our docker container, ensure that no other ports are occupied from other Jupyter Notebook sessions. Install docker and run the command
 
-`docker run -p 8888:8888 --rm -it hanoi7/klustr jupyter notebook  \
---NotebookApp.iopub_data_rate_limit=10000000 --ip='*' --no-browser --allow-root`
+`docker run -p 8888:8888 --rm -it hanoi7/klustr jupyter notebook --NotebookApp.iopub_data_rate_limit=10000000 --ip='*' --no-browser --allow-root`
 
 Copy paste the URL that appears in the command line into a browser and open to `1.)Main klustr Notebook`. This should be the only notebook you need to understand and reproduce our code.
 

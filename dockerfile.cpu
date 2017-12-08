@@ -20,10 +20,13 @@ FROM continuumio/anaconda:4.4.0
 RUN pip install tqdm
 
 # Install Matplotlib
-RUN conda install Matplotlib
+RUN conda install matplotlib
 
 # Install Shapely for metrics related to shapes
 RUN pip install shapely
+
+# Install librosa
+RUN pip install librosa
 
 # Set working directory to /klustr
 WORKDIR /klustr
