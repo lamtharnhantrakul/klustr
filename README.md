@@ -3,7 +3,7 @@ A tool for dimensionality reduction and visualization of large audio datasets
 <img src="images/klustr_icon.png" width="350" height="350">
 
 ## *klustr* introduction
-From speech, images and sensor input, data from the natural world is often high dimensional. Instead of interacting directly with this high dimensional data how-ever, a collection of audio sample is often instead organized using simple high-level descriptors, such as the type of sound e.g “vocal_shout”. However, these labels are often not available, and when available, do not capture the nuances of relationships between sounds.
+From speech, images and sensor input, data from the natural world is often high dimensional. Instead of interacting directly with this high dimensional data how-ever, a collection of audio sample is often instead organized using simple high-level descriptors, such as the type of sound e.g “trap_snare_1”. However, these labels are often not available, and when available, do not capture the nuances of relationships between sounds. How different is `trap_snare_1.wav` from `trap_snare_3.wav`? What about `house_clap_3.wav`?
 
 In order to build relationships between samples at the timbre level, we must form representations drawn from the high dimensional audio data. These are typically in the form of STFT or MFCC features, but even these are in dimensions in the order of several thousands. This paper presents an approach of allowing users to navigate these relatively high dimensional features in 2D space.
 
