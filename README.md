@@ -21,7 +21,7 @@ We recommend using our docker container to interact with our notebook. Our docke
 
 `docker run -p 8888:8888 --rm -it hanoi7/klustr jupyter notebook --NotebookApp.iopub_data_rate_limit=10000000 --ip='*' --no-browser --allow-root`
 
-Copy paste the URL that appears in the command line into a browser and open to `1.)Main klustr Notebook`. This should be the only notebook you need to understand and reproduce our code.
+Copy paste the URL that appears in the command line into a browser and open to `1.)Main klustr Notebook`. This should be the only notebook you need to understand and reproduce our code and pipeline. We have included additional notebooks that demonstrate how we scraped file names for ground truth labels and extract features such as STFT and WaveNet features.
 
 * The argument `-p 8888:8888` maps the internal 8888 port in docker to the external 8888 port accessed by a host browser.
 * The argument `--rm` removes the docker container after it is finished
