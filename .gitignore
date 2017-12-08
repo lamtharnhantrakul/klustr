@@ -6,3 +6,5 @@ drumEmbeddings/
 *.npy
 wavenet-ckpt/
 *.data
+.gitignore
+.ipynb_checkpoints/
