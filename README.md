@@ -34,7 +34,7 @@ Copy paste the URL that appears in the command line into a browser and open to `
 
 We have zipped up out notebooks and `.npy` files as a single zip folder. Download this through the link:
 
-https://www.mediafire.com/file/3w8h4ywgnid3nyu/klustr.zip
+https://www.mediafire.com/file/2oap63ysz2j9d4a/klustr.zip
 
 Assuming you have conda installed, create a new conda environment. Ensure you have navigated into the root directory of `./klustr` then run command.
 
