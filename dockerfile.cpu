@@ -28,6 +28,12 @@ RUN pip install shapely
 # Install librosa
 RUN pip install librosa
 
+# Instructions for installing UMAP
+RUN conda install numpy scipy
+RUN conda install scikit-learn
+RUN conda install numba
+RUN pip install umap-learn
+
 # Set working directory to /klustr
 WORKDIR /klustr
 
